@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color:cadetblue;
+}
+
+.banners{
+    background-color:white;
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.banner1{
+    width: auto;
+    height: auto;
+    margin-left:20px;
+    margin-bottom: 5px;
+}
+
+.banner2{
+    width: auto;
+    height: auto;
+    margin-left:10px;
+    font-size: larger;
+    letter-spacing: 5px;
+}       
+
+.banner-image{
+    width: 60%;
+    height: auto;
+}
+
+
+ul{
+    width: auto;
+    height: 50px;
+    list-style-type: none;
+    font-size: 20px;
+    
+
+}
+
+li{
+    float:left;
+    margin: 10px 40px;
+
+}
+
+.banner1:hover{
+    transform:scale(1.1,1.1);
+}
+
+.nav_li:hover{
+    transform:scale(1.1,1.1);
+    color:brown;
+    font-weight: 900;
+}
+
+.main_divs{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.main_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px ;
+    width:auto;
+    min-width: 200px;
+    height: auto;
+}
+ section{
+    margin-left: 30px;
+    width: 600px;
+ }
+
+ .section_p{
+    font-size: large;
+ }
+
+ #t_password{
+    background:cadetblue; 
+    border:0px;font-size: 15px;
+ }
+
+.main_div_imag{
+    width:300px;
+    height: 300px;
+}
+
+.main_div_imag:hover{
+    transform:scale(1.05,1.05);
+    box-shadow: 5px 5px 7px black;
+
+}
+
+a{
+    text-decoration:none
+}
+
+footer{
+    margin-bottom: 0;
+    width: auto;
+    height: 100px;
+    background-color:white;
+    text-align: center;
+}
